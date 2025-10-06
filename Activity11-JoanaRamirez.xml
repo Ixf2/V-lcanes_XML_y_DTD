@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CanaryIsland SYSTEM "Activity11-JoanaRamirez.dtd">
+<CanaryIsland>
+    <volcanos>
+        <volcano name_island = "La Palma" start_date ="19-09-2001" final_date="12-12-2001">
+            <affected_area>
+                <zones>
+                    <zone>Todoque</zone>
+                </zones>
+                <municipalities>
+                    <municipality name_municipality="Los Llanos de Aridane">
+                        <emergencyPhones>
+                            <emergencyPhone>123123123</emergencyPhone>
+                        </emergencyPhones>
+                        <civil_service>23</civil_service>
+                    </municipality>
+                </municipalities>
+            </affected_area>
+            <resource>
+                <material und="5">Helicopter</material>
+                <humans>
+                    <human name_human="Juan" surname_human="Rodriguez" dni="12121212D">
+                        <task date_task="19-09-2001" hour="3h">Ayudante en la evacuación de los habitantes de Todoque</task>
+                    </human>
+                </humans>
+            </resource>
+        </volcano>
+    </volcanos>
+</CanaryIsland>
