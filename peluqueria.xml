@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hairdressers>
+    <hairdresser id="2983984">
+        <location>
+            <street>Mesa y López</street>
+            <zip>35014</zip>
+        </location>
+        <employees>
+            <employee>
+                <name>Carlos Suarez</name>
+                <dni>123455666R</dni>
+                <birthday>12/30/1987</birthday>
+            </employee>
+        </employees>
+        <clients>
+            <client>
+                <name>Juan Antonio</name>
+                <phone>5555555</phone>
+                <email>juananrm@gmail.com</email>
+            </client>
+        </clients>
+    </hairdresser>
+</hairdressers>
