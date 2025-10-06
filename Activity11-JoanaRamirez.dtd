@@ -6,8 +6,6 @@
     start_date CDATA #REQUIRED
     final_date CDATA #REQUIRED>
 <!ELEMENT affected_area (zones, municipalities)>
-<!ELEMENT material (#PCDATA)>
-<!ATTLIST material und CDATA #REQUIRED>
 <!ELEMENT zones (zone*)>
 <!ELEMENT zone (#PCDATA)>
 <!ELEMENT municipalities (municipality*)>
@@ -18,6 +16,7 @@
 <!ELEMENT civil_service (#PCDATA)>
 <!ELEMENT resource (material, humans)>
 <!ELEMENT material (#PCDATA)>
+<!ATTLIST material und CDATA #REQUIRED>
 <!ELEMENT humans (human*)>
 <!ELEMENT human (task+)>
 <!ATTLIST human 
