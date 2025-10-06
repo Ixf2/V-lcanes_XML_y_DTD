@@ -61,6 +61,10 @@ El archivo XML describe información detallada sobre:
     </volcanos>
 </CanaryIsland>
 
+
+
+
+📄 **Ejemplo:**
 ```dtd
 <!ELEMENT CanaryIsland (volcanos)>
 <!ELEMENT volcanos (volcano*)>
