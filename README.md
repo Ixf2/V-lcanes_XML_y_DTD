@@ -1,36 +1,37 @@
-# V-lcanes_XML_y_DTD# 🌋 Prueba de Examen XML – Actividad 11
+# 🌋 XML and DTD Exam Project – Activity 11
 
-Este proyecto consiste en la creación de un documento **XML** junto con su correspondiente **DTD**, representando información sobre **la erupción volcánica en La Palma (Islas Canarias)**.  
-El objetivo principal es validar la correcta estructuración y definición de elementos, atributos y relaciones dentro de un conjunto de datos jerárquico.
+This project involves creating an **XML document** together with its corresponding **DTD**, representing information about the **volcanic eruption in La Palma (Canary Islands)**.  
+The main goal is to validate the correct structure and definition of elements, attributes, and relationships within a hierarchical data set.
 
----
-
-## 🗂️ Estructura del proyecto
-
+## 🗂️ Project Structure
 📁 PruebaExamenXML/
 ├── Activity11.dtd
 ├── Activity11.xml
 └── README.md
+---
 
-## 👥 Colaboradores
+## 👥 Collaborators
 
-| Nombre | Rol |
-|---------|-----|
-| 🧑‍💻 Joana Ramírez | (@ixf2) Autora principal del XML y DTD |
-| 👨‍💻 Víctor Vergara | (@sdvictorvergara) Validación del DTD y revisión del XML |
+| Name | Role |
+|------|------|
+| 🧑‍💻 Joana Ramírez (@ixf2) | Main author of the XML and DTD |
+| 👨‍💻 Víctor Vergara (@sdvictorvergara) | DTD validation and XML review |
 
-## 📘 Descripción del contenido
+---
+
+## 📘 Content Description
 
 ### 🧩 XML – `Activity11.xml`
 
-El archivo XML describe información detallada sobre:
-- 🌋 **Volcanes** y sus fechas de actividad (`start_date`, `final_date`)
-- 🏝️ **Islas afectadas**, con nombre y áreas impactadas
-- 🏘️ **Municipios** y zonas evacuadas
-- 🧑‍🚒 **Recursos humanos y materiales** utilizados
-- 👷 **Tareas** realizadas durante la emergencia
+The XML file provides detailed information about:
 
-📄 **Ejemplo:**
+- 🌋 **Volcanoes** and their activity dates (`start_date`, `final_date`)  
+- 🏝️ **Affected islands**, with names and impacted areas  
+- 🏘️ **Municipalities** and **evacuated zones**  
+- 🧑‍🚒 **Human and material resources** used  
+- 👷 **Tasks** carried out during the emergency  
+
+📄 **Example:**
 ```xml
 <CanaryIsland>
     <volcanos start_date="19-09-2001" final_date="12-12-2001">
