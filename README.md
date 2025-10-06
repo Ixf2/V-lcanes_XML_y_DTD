@@ -61,39 +61,3 @@ El archivo XML describe información detallada sobre:
     </volcanos>
 </CanaryIsland>
 
-
-
-
-📄 **Ejemplo:**
-```dtd
-<!ELEMENT CanaryIsland (volcanos)>
-<!ELEMENT volcanos (volcano*)>
-<!ELEMENT volcano (affected_area*, resource)>
-<!ATTLIST volcano 
-    name_island CDATA #REQUIRED
-    start_date CDATA #REQUIRED
-    final_date CDATA #REQUIRED>
-<!ELEMENT affected_area (zones, municipalities)>
-<!ELEMENT material (#PCDATA)>
-<!ATTLIST material und CDATA #REQUIRED>
-<!ELEMENT zones (zone*)>
-<!ELEMENT zone (#PCDATA)>
-<!ELEMENT municipalities (municipality*)>
-<!ELEMENT municipality (emergencyPhones, civil_service?)>
-<!ATTLIST municipality name_municipality CDATA #REQUIRED>
-<!ELEMENT emergencyPhones (emergencyPhone*)>
-<!ELEMENT emergencyPhone (#PCDATA)>
-<!ELEMENT civil_service (#PCDATA)>
-<!ELEMENT resource (material, humans)>
-<!ELEMENT material (#PCDATA)>
-<!ELEMENT humans (human*)>
-<!ELEMENT human (task+)>
-<!ATTLIST human 
-    name_human CDATA #REQUIRED
-    surname_human CDATA #REQUIRED
-    dni CDATA #REQUIRED>
-<!ELEMENT task (#PCDATA)>
-<!ATTLIST task 
-    date_task CDATA #REQUIRED
-    hour CDATA #REQUIRED>
-
