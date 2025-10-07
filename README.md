@@ -31,6 +31,13 @@ The XML file provides detailed information about:
 - 🧑‍🚒 **Human and material resources** used  
 - 👷 **Tasks** carried out during the emergency  
 
+📥 **Import guide**
+
+```bash
+# Clona el repositorio
+git clone https://github.com/usuario/nombre-del-proyecto.git
+```
+
 📄 **Example:**
 
 **XML:**
